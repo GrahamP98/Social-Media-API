@@ -1,0 +1,24 @@
+{
+  "name": "social-media-api",
+  "version": "1.0.0",
+  "description": "Module 18 challenge: NOSQL: social media api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrahamP98/Social-Media-API.git"
+  },
+  "author": "Graham Purnell (GrahamP98)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrahamP98/Social-Media-API/issues"
+  },
+  "homepage": "https://github.com/GrahamP98/Social-Media-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.4"
+  }
+}
