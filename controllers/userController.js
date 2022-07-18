@@ -55,7 +55,7 @@ const userCroller = {
                 console.log(err);
                 res.sendStatus(400);
             });
-    }
+    },
 
     deleteUser({ params }, res) {
         Thought.deleteMany({ userId: params.id })
@@ -104,5 +104,5 @@ const userCroller = {
     }
 };
 
-module.exports = userController
+module.exports = userCroller
 

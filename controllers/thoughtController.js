@@ -67,7 +67,7 @@ const thoughtCroller = {
                 res.json(thoughtData);
             })
             .catch(err => res.json(err));
-    }
+    },
 
     deleteThought({ params }, res) {
         Thought.findOneAndDelete({ thoughtId: params.id })
